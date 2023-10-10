@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(26, 1, 102);
+}
+.app-container{
+    display: grid;
+    min-width: 100vh;
+    margin: 50px;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: (3, 1fr);
+}
+.movieContainer{
+    position: relative;
+    width: 150px;
+    height: 400px;
+    margin: 3px;
+}
+.moviePicture{
+    width: 150px;
+    height: 300px;
+}
+.text{
+    height: 70px;
+    padding: 5px;
+    display: flex;
+    background-color: rgb(70, 59, 103);
+    font-size: 14px;
+    color: white;
+}
+.title{
+    width: 80%;
+}
+.vote_average{
+    text-align: center;
+    width: 20%;
+}
