@@ -1,4 +1,4 @@
-import * as MS from "./MovieStyle"
+import * as MS from "./MovieStyle";
 
 function Movie(item) {
   return (
@@ -15,9 +15,7 @@ function Movie(item) {
         <p className="modalText">{`${item.overview}`}</p>
       </MS.modal>
     </MS.movieContainer>
-  )
+  );
 }
-
-
 
 export default Movie;
